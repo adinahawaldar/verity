@@ -5,6 +5,7 @@ import MisinformationCases from './Components/MisinformationCases';
 import Verification from "./Components/Verification";
 import Cases from './Components/Cases';
 import Categories from "./Components/Categories";
+import Footer from './Components/Footer'
 export default function App() {
   return (
     <>
@@ -16,6 +17,7 @@ export default function App() {
     <Verification/>
     {/* <Cases/> */}
     <Categories/>
+    <Footer/>
     </>
   )
 }
