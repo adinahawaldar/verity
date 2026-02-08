@@ -30,8 +30,23 @@ const ProfessionalProcess = () => {
   return (
     <section className="py-16 bg-white border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-4">
-        
-        {/* Header */}
+
+        {/* Centered Header */}
+        <div className="text-center mb-16">
+          
+          <h2 className="text-4xl font-bold text-emerald-900 mb-6 leading-tight">
+            News Credibility Assessment </h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            A Structured Five-Step Analytical Process Designed to Systematically Evaluate, Validate, and Determine the Credibility of News Content         </p>
+        </div>
+
+        <div className="space-y-12">
+        </div>
+
+
+
+
+        {/* Header
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             How Verification Works
@@ -39,7 +54,7 @@ const ProfessionalProcess = () => {
           <p className="text-gray-600">
             Five-step analysis process for news credibility assessment
           </p>
-        </div>
+        </div> */}
 
         {/* Steps Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">

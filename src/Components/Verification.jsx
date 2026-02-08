@@ -39,15 +39,12 @@ const ProfessionalVerificationSection = () => {
         
         {/* Centered Header */}
         <div className="text-center mb-16">
-          <div className="text-sm font-medium text-emerald-700 uppercase tracking-wider mb-4">
-            News Verification System
-          </div>
-          <h2 className="text-4xl font-bold text-gray-900 mb-6 leading-tight">
+          
+          <h2 className="text-4xl font-bold text-emerald-900 mb-6 leading-tight">
             Check News Credibility
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Analyze news content using automated content and source verification.
-          </p>
+Automated Analysis of News Content Through Advanced Content and Source Verification Mechanisms          </p>
         </div>
 
         <div className="space-y-12">

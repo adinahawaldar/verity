@@ -26,14 +26,13 @@ const ProfessionalMethodology = () => {
     <section className="py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto px-4">
         
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Verification Methodology
-          </h2>
+{/* Centered Header */}
+        <div className="text-center mb-16">
+          
+          <h2 className="text-4xl font-bold text-emerald-900 mb-6 leading-tight">
+Enterprise Implementation Framework     </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Advanced analytical framework for comprehensive news credibility assessment
-          </p>
+Application of Scalable and Reliable Verification Systems in Media, Academic, and Research Ecosystems  </p>
         </div>
 
         {/* Methodology Cards - New UI Style */}

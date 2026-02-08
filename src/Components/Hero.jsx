@@ -7,12 +7,12 @@ const ProfessionalHero = () => {
           {/* Left Column - Main Content */}
           <div>
             <div className="mb-8">
-              <div className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-4">
+              <div className="text-sm font-medium text-emerald-900 uppercase tracking-wider mb-4">
                 News Verification System
               </div>
-              <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
+              <h1 className="text-5xl font-bold text-emerald-950 mb-6 leading-tight">
                 Verify news credibility
-                <span className="block text-gray-700 mt-2">before you trust it</span>
+                <span className="block text-black mt-2">before you trust it</span>
               </h1>
               <p className="text-lg text-gray-600 max-w-lg leading-relaxed">
                 Professional analysis platform for media organizations and journalists to verify article credibility and detect misinformation.
@@ -21,7 +21,7 @@ const ProfessionalHero = () => {
 
             {/* CTA */}
             <div className="mb-12">
-              <button className="px-10 py-4 bg-gray-900 text-white font-medium hover:bg-gray-800 transition-colors text-base">
+              <button className="px-10 py-4 bg-emerald-800 text-white font-medium hover:bg-emerald-900 transition-colors text-base">
                 Upload Article for Analysis
               </button>
               <div className="mt-3 text-sm text-gray-500">

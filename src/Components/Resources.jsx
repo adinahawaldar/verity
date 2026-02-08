@@ -69,18 +69,17 @@ const ProfessionalResources = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
-        <div className="mb-16">
-          <div className="mb-6">
-            <div className="w-20 h-1 bg-emerald-600 mb-4"></div>
-            <span className="text-sm font-medium text-emerald-700 uppercase tracking-wider">
-              Information Resources
-            </span>
-          </div>
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">
-            Verification & Analysis Resources
+        <div className="text-center mb-12">
+          {/* <div className="inline-flex items-center px-4 py-2 rounded-full bg-red-50 border border-red-100 mb-4">
+            <AlertTriangle className="w-4 h-4 text-red-600 mr-2" />
+            <span className="text-sm font-medium text-red-700">Case Analysis</span>
+          </div> */}
+          <h2 className="text-3xl md:text-4xl font-bold text-emerald-900 mb-4">
+            Recent Misinformation Cases
           </h2>
-          <p className="text-lg text-gray-600 max-w-3xl">
-            Professional frameworks and methodologies for information verification and media analysis
+          <p className="text-gray-600 max-w-3xl mx-auto">
+            A selection of widely circulated news claims that were identified as misleading or false 
+            through fact-checking sources and independent verification.
           </p>
         </div>
 
@@ -130,7 +129,7 @@ const ProfessionalResources = () => {
           ))}
         </div>
 
-        {/* Research Section */}
+        {/* Research Section
         <div className="mb-20">
           <h3 className="text-2xl font-bold text-gray-900 mb-10 pb-4 border-b border-gray-200">
             Research & Publications
@@ -155,13 +154,13 @@ const ProfessionalResources = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Professional Framework */}
         <div className="border border-gray-200 rounded-xl p-10">
           <div className="grid lg:grid-cols-2 gap-10">
             <div>
-              <h4 className="text-2xl font-bold text-gray-900 mb-6">
+              <h4 className="text-2xl font-bold text-emerald-900 mb-6">
                 Verification Framework
               </h4>
               <p className="text-gray-700 mb-8 leading-relaxed">

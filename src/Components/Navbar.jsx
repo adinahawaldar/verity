@@ -41,7 +41,7 @@ const MinimalGreenNavbar = () => {
 
           {/* Right Side */}
           <div className="flex items-center space-x-4">
-            <button className="hidden md:block px-5 py-2 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium rounded transition-colors">
+            <button className="hidden md:block px-5 py-2 bg-emerald-700 hover:bg-emerald-900 text-white text-sm font-medium rounded transition-colors">
               Start Verification
             </button>
             
@@ -71,7 +71,7 @@ const MinimalGreenNavbar = () => {
                   {item}
                 </a>
               ))}
-              <button className="w-full mt-4 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-white text-sm font-medium rounded">
+              <button className="w-full mt-4 py-2.5 bg-black hover:bg-black text-white text-sm font-medium rounded">
                 Start Verification
               </button>
             </div>

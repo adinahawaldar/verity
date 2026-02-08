@@ -3,9 +3,8 @@ import Hero from "./Components/Hero";
 import About from './Components/About';
 import MisinformationCases from './Components/MisinformationCases';
 import Verification from "./Components/Verification";
-import Cases from './Components/Cases';
 import UseCases from './Components/UseCases';
-import Resources from './Components/Resources'
+import Resources from './Components/Resources';
 import Categories from "./Components/Categories";
 import Footer from './Components/Footer';
 export default function App() {
@@ -15,8 +14,9 @@ export default function App() {
     <Navbar/>
     <Hero/>
     <About/>
+        <Verification/>
+
     <MisinformationCases/>
-    <Verification/>
     {/* <Cases/> */}
     <UseCases/>
     <Resources/>
