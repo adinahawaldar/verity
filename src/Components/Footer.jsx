@@ -9,10 +9,10 @@ const ProfessionalFooter = () => {
           {/* Platform Information */}
           <div>
             <div className="mb-6">
-              <div className="w-10 h-10 bg-emerald-600 rounded-lg flex items-center justify-center mb-4">
+              {/* <div className="w-10 h-10 bg-emerald-600 rounded-lg flex items-center justify-center mb-4">
                 <div className="text-white font-bold">VN</div>
-              </div>
-              <div className="text-xl font-bold mb-2">VeriNew</div>
+              </div> */}
+              <div className="text-xl font-bold mb-2">Verity</div>
               <div className="text-gray-400 text-sm">Automated News Verification Platform</div>
             </div>
             <p className="text-gray-400 text-sm">

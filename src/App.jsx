@@ -4,7 +4,7 @@ import About from './Components/About';
 import MisinformationCases from './Components/MisinformationCases';
 import Verification from "./Components/Verification";
 import UseCases from './Components/UseCases';
-import Resources from './Components/Resources';
+// import Resources from './Components/Resources';
 import Categories from "./Components/Categories";
 import Footer from './Components/Footer';
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
     <MisinformationCases/>
     {/* <Cases/> */}
     <UseCases/>
-    <Resources/>
+    {/* <Resources/> */}
     <Categories/>
     <Footer/>
     </>

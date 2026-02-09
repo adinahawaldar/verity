@@ -18,11 +18,11 @@ const MinimalGreenNavbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-10 h-10 bg-gradient-to-br from-emerald-400 to-green-500 rounded-lg flex items-center justify-center">
+            {/* <div className="w-10 h-10 bg-gradient-to-br from-emerald-400 to-green-500 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold">V</span>
-            </div>
+            </div> */}
             <div className="ml-3">
-              <h1 className="text-xl font-bold text-gray-900">VeriNew</h1>
+              <h1 className="text-xl font-bold text-gray-900">Verity</h1>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ const MinimalGreenNavbar = () => {
 
           {/* Right Side */}
           <div className="flex items-center space-x-4">
-            <button className="hidden md:block px-5 py-2 bg-emerald-700 hover:bg-emerald-900 text-white text-sm font-medium rounded transition-colors">
+            <button className="hidden md:block px-5 py-2 bg-black hover:bg-black text-white text-sm font-medium rounded transition-colors">
               Start Verification
             </button>
             

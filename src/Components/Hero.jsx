@@ -7,7 +7,7 @@ const ProfessionalHero = () => {
           {/* Left Column - Main Content */}
           <div>
             <div className="mb-8">
-              <div className="text-sm font-medium text-emerald-900 uppercase tracking-wider mb-4">
+              <div className="text-sm font-medium text-grey-700 uppercase tracking-wider mb-4">
                 News Verification System
               </div>
               <h1 className="text-5xl font-bold text-emerald-950 mb-6 leading-tight">
@@ -21,7 +21,7 @@ const ProfessionalHero = () => {
 
             {/* CTA */}
             <div className="mb-12">
-              <button className="px-10 py-4 bg-emerald-800 text-white font-medium hover:bg-emerald-900 transition-colors text-base">
+              <button className="px-10 py-4 bg-black text-white font-medium hover:bg-emerald-900 transition-colors text-base">
                 Upload Article for Analysis
               </button>
               <div className="mt-3 text-sm text-gray-500">

@@ -29,10 +29,11 @@ const ProfessionalMethodology = () => {
 {/* Centered Header */}
         <div className="text-center mb-16">
           
-          <h2 className="text-4xl font-bold text-emerald-900 mb-6 leading-tight">
-Enterprise Implementation Framework     </h2>
+          <h2 className="text-4xl font-bold text-black mb-6 leading-tight">
+Core Verification Architecture
+  </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-Application of Scalable and Reliable Verification Systems in Media, Academic, and Research Ecosystems  </p>
+An Integrated Framework Combining NLP, Machine Learning, Source Intelligence, and Performance-Driven Verification Systems</p>
         </div>
 
         {/* Methodology Cards - New UI Style */}

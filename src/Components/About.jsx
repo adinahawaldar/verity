@@ -31,10 +31,10 @@ const ProfessionalProcess = () => {
     <section className="py-16 bg-white border-t border-gray-100">
       <div className="max-w-6xl mx-auto px-4">
 
-        {/* Centered Header */}
+        {/* Header */}
         <div className="text-center mb-16">
           
-          <h2 className="text-4xl font-bold text-emerald-900 mb-6 leading-tight">
+          <h2 className="text-4xl font-bold text-black mb-6 leading-tight">
             News Credibility Assessment </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             A Structured Five-Step Analytical Process Designed to Systematically Evaluate, Validate, and Determine the Credibility of News Content         </p>
