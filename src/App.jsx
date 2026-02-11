@@ -7,6 +7,7 @@ import UseCases from './Components/UseCases';
 // import Resources from './Components/Resources';
 import Categories from "./Components/Categories";
 import Footer from './Components/Footer';
+import Faq from './Components/Faq';
 export default function App() {
   return (
     <>
@@ -21,6 +22,7 @@ export default function App() {
     <UseCases/>
     {/* <Resources/> */}
     <Categories/>
+    <Faq/>
     <Footer/>
     </>
   )
